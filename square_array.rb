@@ -1,4 +1,4 @@
-array = [1, 2, 3]
+original_numbers = [1, 2, 3]
 
 def square_array(array)
   
@@ -13,6 +13,6 @@ def square_array(array)
   
 end
 
-square_array()
+square_array(original_numbers)
 
 
