@@ -2,7 +2,7 @@ original_numbers = [1, 2, 3]
 
 def square_array(array)
   
-  new_array = [] #define new array in order to output squared numbers
+  new_array = [] #a new array to store the squared numbers
   
   array.each do |number|
     squared_number = number ** 2
